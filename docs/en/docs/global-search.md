@@ -132,7 +132,7 @@ class IdeaPresenter extends Presenter implements Searchable
     }
 }
 ```
-
+Note: For this example to function correctly, it's crucial to set SCOUT_DRIVER=database as the default driver in your environment configuration (.env). This setting enables the database driver functionality required by Laravel Scout.
 
 ## Customizing Search Queries
 
